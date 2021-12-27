@@ -15,6 +15,7 @@ input.onButtonPressed(Button.A, function () {
     input.lightLevel(),
     1
     )
+    basic.showNumber(input.lightLevel())
 })
 input.onButtonPressed(Button.AB, function () {
     pins.digitalWritePin(DigitalPin.P8, 0)
