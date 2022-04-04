@@ -35,7 +35,7 @@ input.onButtonPressed(Button.B, function () {
     )
 })
 OLED12864_I2C.init(60)
-music.startMelody(music.builtInMelody(Melodies.Dadadadum), MelodyOptions.Once)
+music.playMelody("C E G C5 - - - - ", 240)
 pins.digitalWritePin(DigitalPin.P8, 0)
 pins.digitalWritePin(DigitalPin.P12, 0)
 pins.digitalWritePin(DigitalPin.P16, 0)
